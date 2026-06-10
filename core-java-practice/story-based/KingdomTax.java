@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class KingdomTax {
     public static void main(String[] args) {
@@ -32,7 +32,5 @@ public class KingdomTax {
         }
 
         System.out.println("\nTotal Tax Collected = " + totalTax);
-
-        sc.close();
     }
 }
